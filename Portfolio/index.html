@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Ruthishwaran R — Software Developer specializing in Python, R Programming, and Web Development. Hire me for your next project!" />
+    <meta name="keywords"
+        content="Ruthishwaran, Software Developer, Python, R Programming, Web Developer, Portfolio, Hire Developer" />
+    <meta name="author" content="Ruthishwaran R" />
+    <meta property="og:title" content="Ruthishwaran R | Software Developer Portfolio" />
+    <meta property="og:description"
+        content="Python Developer & Data Analyst ready to build impactful software. View projects, skills, and get in touch!" />
+    <meta property="og:type" content="website" />
+    <title>Ruthishwaran R | Software Developer</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="mstyles.css" />
+</head>
+
+<body>
+
+    <!-- Particle Canvas Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Sticky Navbar -->
+    <header id="navbar">
+        <nav>
+            <span class="logo">RR</span>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#why-hire" class="nav-link">Why Me</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+        <div class="hero-text reveal">
+            <p class="hero-greeting">👋 Hello, World! I am</p>
+            <h1 class="gradient-name">Ruthishwaran R</h1>
+            <h3 class="typing-wrapper">
+                <span id="typing"></span><span class="cursor">|</span>
+            </h3>
+            <p class="hero-description">
+                A passionate <strong>B.Sc Computer Science</strong> final-year student who transforms
+                ideas into elegant, high-performance software. I specialise in
+                <strong>Python automation</strong>, <strong>R-based data analysis</strong>, and
+                crafting modern <strong>web experiences</strong> — all driven by curiosity and a
+                desire to make real-world impact.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num" data-target="5">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num" data-target="4">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Tech Stacks</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num" data-target="100">0</span><span class="stat-plus">%</span>
+                    <span class="stat-label">Committed</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="resume.pdf" download class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-briefcase"></i> Hire Me
+                </a>
+            </div>
+            <p class="availability-badge">
+                <span class="dot-live"></span> Available for Freelance &amp; Full-Time Roles
+            </p>
+        </div>
+        <div class="hero-image reveal">
+            <div class="glow-ring">
+                <img src="professional.jpg.jpeg" alt="Ruthishwaran R - Software Developer" />
+            </div>
+            <div class="hero-badge">
+                <i class="fas fa-star"></i> Open to Work
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section">
+        <div class="section-header reveal">
+            <h2>About <span class="highlight">Me</span></h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">Who I am, what drives me, and what I bring to the table</p>
+        </div>
+
+        <div class="about-intro reveal">
+            <p>
+                I'm <strong>Ruthishwaran R</strong>, a final-year <strong>B.Sc Computer Science</strong> student
+                at [Your College Name], Tamil Nadu, India. My journey into technology began with a genuine
+                love for problem-solving — turning complex real-world challenges into clean, efficient code.
+            </p>
+            <p>
+                Over the past few years, I have developed strong foundations in <strong>Python programming</strong>,
+                <strong>statistical data analysis with R</strong>, and <strong>web development</strong>.
+                I believe great software is not just about syntax — it's about understanding the problem deeply
+                and building solutions that are <em>scalable, readable, and impactful</em>.
+            </p>
+            <p>
+                When I'm not coding, I enjoy exploring new frameworks, reading tech articles, and participating
+                in peer study groups to sharpen my skills. I am a fast learner, a collaborative team player,
+                and deeply motivated by the idea of creating software that makes someone's life easier.
+            </p>
+        </div>
+
+        <div class="about-content reveal">
+            <div class="about-card">
+                <i class="fas fa-user-graduate about-icon"></i>
+                <h4>Education</h4>
+                <p>B.Sc Computer Science<br /><small>Final Year • 2023–2026</small></p>
+            </div>
+            <div class="about-card">
+                <i class="fas fa-map-marker-alt about-icon"></i>
+                <h4>Location</h4>
+                <p>Tamil Nadu, India<br /><small>Open to Remote Work</small></p>
+            </div>
+            <div class="about-card">
+                <i class="fas fa-code about-icon"></i>
+                <h4>Focus Areas</h4>
+                <p>Python • R • Web Dev<br /><small>Data & Software Solutions</small></p>
+            </div>
+            <div class="about-card">
+                <i class="fas fa-language about-icon"></i>
+                <h4>Languages</h4>
+                <p>Tamil • English<br /><small>Read, Write & Speak</small></p>
+            </div>
+        </div>
+
+        <blockquote class="about-quote reveal">
+            "I do not just write code — I craft solutions. Every project I take on is an opportunity
+            to learn, grow, and deliver something that truly matters."
+            <cite>— Ruthishwaran R</cite>
+        </blockquote>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="section">
+        <div class="section-header reveal">
+            <h2>Technical <span class="highlight">Skills</span></h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">Technologies I work with and continue to grow in</p>
+        </div>
+        <div class="skills-grid reveal">
+
+            <div class="skill-item">
+                <div class="skill-meta">
+                    <span class="skill-name"><i class="fab fa-python"></i> Python</span>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress python" data-width="85"></div>
+                </div>
+                <p class="skill-desc">Scripting, automation, OOP, file handling, and application development.</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-meta">
+                    <span class="skill-name"><i class="fas fa-chart-bar"></i> R Programming</span>
+                    <span class="skill-percent">75%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress r" data-width="75"></div>
+                </div>
+                <p class="skill-desc">Statistical analysis, data visualization (ggplot2), and CSV processing.</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-meta">
+                    <span class="skill-name"><i class="fab fa-html5"></i> HTML &amp; CSS</span>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress html" data-width="80"></div>
+                </div>
+                <p class="skill-desc">Semantic HTML5, Flexbox, Grid, animations, and responsive design.</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-meta">
+                    <span class="skill-name"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="skill-percent">70%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress js" data-width="70"></div>
+                </div>
+                <p class="skill-desc">DOM manipulation, ES6+, async/await, and interactive UI development.</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-meta">
+                    <span class="skill-name"><i class="fab fa-github"></i> Git &amp; GitHub</span>
+                    <span class="skill-percent">70%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress git" data-width="70"></div>
+                </div>
+                <p class="skill-desc">Version control, branching strategies, pull requests, and collaboration.</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-meta">
+                    <span class="skill-name"><i class="fas fa-database"></i> SQL</span>
+                    <span class="skill-percent">65%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress sql" data-width="65"></div>
+                </div>
+                <p class="skill-desc">Query writing, joins, aggregation, and relational database management.</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-meta">
+                    <span class="skill-name"><i class="fas fa-brain"></i> Data Analysis</span>
+                    <span class="skill-percent">72%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress da" data-width="72"></div>
+                </div>
+                <p class="skill-desc">Cleaning, visualization, trends discovery, and generating insights.</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-meta">
+                    <span class="skill-name"><i class="fas fa-terminal"></i> Problem Solving</span>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress ps" data-width="80"></div>
+                </div>
+                <p class="skill-desc">Logical thinking, algorithmic approaches, and debugging complex issues.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== EXPERIENCE / TIMELINE ========== -->
+    <section id="experience" class="section">
+        <div class="section-header reveal">
+            <h2>My <span class="highlight">Journey</span></h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">Education milestones and key learning experiences</p>
+        </div>
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2026 (Final Year)</span>
+                    <h3>B.Sc Computer Science — Final Year</h3>
+                    <p>
+                        Pursuing my degree with a strong focus on software development, data structures,
+                        algorithms, and database systems. Building real-world projects to solidify theoretical
+                        knowledge.
+                    </p>
+                    <div class="timeline-tags">
+                        <span class="tag">Algorithms</span>
+                        <span class="tag">DBMS</span>
+                        <span class="tag">Software Engineering</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2025</span>
+                    <h3>Python & Data Analysis Deep Dive</h3>
+                    <p>
+                        Completed intensive self-study and practice in Python programming and R-based
+                        data analysis. Built the Student Management System and CSV Data Analysis tools
+                        to apply skills in practical scenarios.
+                    </p>
+                    <div class="timeline-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">R</span>
+                        <span class="tag">Data Visualization</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2024</span>
+                    <h3>Web Development Exploration</h3>
+                    <p>
+                        Started learning HTML, CSS, and JavaScript to complement backend skills.
+                        Built multiple web pages and eventually developed this professional portfolio,
+                        incorporating modern design principles and animations.
+                    </p>
+                    <div class="timeline-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2023</span>
+                    <h3>B.Sc Computer Science — Started</h3>
+                    <p>
+                        Began my undergraduate journey, laying the foundation with C programming,
+                        mathematics for computing, and the fundamentals of computer science.
+                        Discovered my passion for coding in the very first semester.
+                    </p>
+                    <div class="timeline-tags">
+                        <span class="tag">C Programming</span>
+                        <span class="tag">Discrete Math</span>
+                        <span class="tag">OS Fundamentals</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="section">
+        <div class="section-header reveal">
+            <h2>My <span class="highlight">Projects</span></h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">Hands-on work that demonstrates my skills and problem-solving approach</p>
+        </div>
+        <div class="projects-grid">
+
+            <div class="project-card reveal">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-users"></i></div>
+                    <span class="project-status completed">Completed</span>
+                </div>
+                <h3>Student Management System</h3>
+                <p>
+                    A fully functional Python desktop application designed to simplify managing
+                    student records in educational institutions. Features include adding, editing,
+                    deleting, and searching student data with persistent file storage.
+                    Built with clean OOP design and an intuitive CLI interface.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Python</span><span class="tag">OOP</span>
+                    <span class="tag">CRUD</span><span class="tag">File I/O</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Ruthishwaran" target="_blank" class="btn btn-sm">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="#" class="btn btn-sm btn-ghost">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                    <span class="project-status completed">Completed</span>
+                </div>
+                <h3>CSV Data Analysis Tool</h3>
+                <p>
+                    An R-powered data analysis pipeline that reads raw CSV datasets, cleans the data,
+                    performs statistical summaries (mean, median, sd), and generates rich visualizations
+                    using ggplot2. Helped uncover actionable insights from academic and public datasets.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">R</span><span class="tag">ggplot2</span>
+                    <span class="tag">Statistics</span><span class="tag">Data Viz</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Ruthishwaran" target="_blank" class="btn btn-sm">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="#" class="btn btn-sm btn-ghost">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-globe"></i></div>
+                    <span class="project-status live">Live</span>
+                </div>
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    Designed and built this fully responsive, animated personal portfolio from scratch
+                    using only HTML5, CSS3, and Vanilla JavaScript. Features include a live particle
+                    canvas background, typing animation, scroll-triggered reveals, glassmorphism UI
+                    cards, and a working contact form — deployed on GitHub Pages.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">HTML5</span><span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span><span class="tag">GitHub Pages</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Ruthishwaran" target="_blank" class="btn btn-sm">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="#" class="btn btn-sm btn-ghost" id="livePortfolioLink">
+                        <i class="fas fa-external-link-alt"></i> Live Site
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== WHY HIRE ME ========== -->
+    <section id="why-hire" class="section">
+        <div class="section-header reveal">
+            <h2>Why <span class="highlight">Hire Me?</span></h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">What sets me apart and what I can bring to your team</p>
+        </div>
+        <div class="why-grid">
+
+            <div class="why-card reveal">
+                <div class="why-icon"><i class="fas fa-rocket"></i></div>
+                <h4>Fast Learner</h4>
+                <p>
+                    I pick up new technologies, frameworks, and tools rapidly. Given a new stack,
+                    I can be productive quickly — backed by a strong programming foundation.
+                </p>
+            </div>
+
+            <div class="why-card reveal">
+                <div class="why-icon"><i class="fas fa-puzzle-piece"></i></div>
+                <h4>Problem Solver</h4>
+                <p>
+                    I approach challenges analytically, breaking down complex problems into
+                    manageable parts and delivering clean, logical solutions.
+                </p>
+            </div>
+
+            <div class="why-card reveal">
+                <div class="why-icon"><i class="fas fa-handshake"></i></div>
+                <h4>Team Player</h4>
+                <p>
+                    Collaborative by nature, I communicate clearly, welcome feedback, and contribute
+                    effectively in both team environments and independent work.
+                </p>
+            </div>
+
+            <div class="why-card reveal">
+                <div class="why-icon"><i class="fas fa-laptop-code"></i></div>
+                <h4>Full-Stack Mindset</h4>
+                <p>
+                    With skills spanning Python backend logic, R data analysis, and HTML/CSS/JS
+                    frontend, I can contribute across multiple layers of a project.
+                </p>
+            </div>
+
+            <div class="why-card reveal">
+                <div class="why-icon"><i class="fas fa-clock"></i></div>
+                <h4>Deadline Driven</h4>
+                <p>
+                    I take deadlines seriously. I plan, prioritise, and deliver work on time without
+                    compromising on quality — a habit built through academic project work.
+                </p>
+            </div>
+
+            <div class="why-card reveal">
+                <div class="why-icon"><i class="fas fa-fire"></i></div>
+                <h4>Genuinely Passionate</h4>
+                <p>
+                    I code because I love it. That passion translates into extra effort,
+                    creative ideas, and a commitment to going beyond the bare minimum on every project.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="hire-cta reveal">
+            <h3>Ready to build something great together?</h3>
+            <p>I'm actively looking for <strong>entry-level software developer roles</strong>, <strong>data analyst
+                    positions</strong>, or <strong>freelance projects</strong>. Let's create something impactful.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary btn-large">
+                    <i class="fas fa-envelope"></i> Let's Talk
+                </a>
+                <a href="resume.pdf" download class="btn btn-outline btn-large">
+                    <i class="fas fa-file-pdf"></i> View Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section">
+        <div class="section-header reveal">
+            <h2>Get In <span class="highlight">Touch</span></h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">I typically respond within 24 hours — don't hesitate to reach out!</p>
+        </div>
+        <div class="contact-wrapper">
+
+            <div class="contact-info reveal">
+                <h3>Let's work together! 🚀</h3>
+                <p>
+                    Whether you have a project in mind, a job opportunity to discuss, or just want
+                    to say hello — my inbox is always open. I'm currently available for:
+                </p>
+                <ul class="availability-list">
+                    <li><i class="fas fa-check-circle"></i> Full-time Software Developer roles</li>
+                    <li><i class="fas fa-check-circle"></i> Freelance / Contract projects</li>
+                    <li><i class="fas fa-check-circle"></i> Data Analysis gigs</li>
+                    <li><i class="fas fa-check-circle"></i> Internship opportunities</li>
+                    <li><i class="fas fa-check-circle"></i> Open-source collaborations</li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://github.com/Ruthishwaran" target="_blank" class="social-btn github"
+                        aria-label="GitHub">
+                        <i class="fab fa-github"></i><span>github.com/Ruthishwaran</span>
+                    </a>
+                    <a href="https://wa.me/917010985220" target="_blank" class="social-btn whatsapp"
+                        aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i><span>+91 70109 85220</span>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" class="social-btn linkedin"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i><span>LinkedIn Profile</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper reveal">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <i class="fas fa-user form-icon"></i>
+                        <input type="text" id="name" placeholder="Your Full Name" required />
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-envelope form-icon"></i>
+                        <input type="email" id="email" placeholder="Your Email Address" required />
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-tag form-icon"></i>
+                        <input type="text" id="subject" placeholder="Subject (e.g. Job Opportunity)" />
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-comment form-icon"></i>
+                        <textarea id="message" rows="5"
+                            placeholder="Tell me about your project or opportunity..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <div id="formSuccess" class="form-success hidden">
+                        <i class="fas fa-check-circle"></i> Message sent! I'll get back to you within 24 hours.
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <span class="footer-logo">RR</span>
+                <p>Ruthishwaran R — Software Developer</p>
+                <p class="footer-tagline">Building the future, one line of code at a time.</p>
+            </div>
+            <div class="footer-center">
+                <p class="footer-links-title">Quick Links</p>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Journey</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#why-hire">Why Me</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-links-title">Connect</p>
+                <div class="footer-social">
+                    <a href="https://github.com/Ruthishwaran" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://wa.me/917010985220" target="_blank" aria-label="WhatsApp"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 <strong>Ruthishwaran R</strong>. All Rights Reserved. Made with <span
+                    style="color:#e74c3c">❤</span> using HTML, CSS &amp; JS.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
