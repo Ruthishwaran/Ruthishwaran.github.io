@@ -1,0 +1,21 @@
+{
+  "name": "ruthishwaran-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Ruthishwaran R - Software Developer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve -s .",
+    "build": "echo 'Static site - no build needed'",
+    "start": "npx serve -s . -l 5000"
+  },
+  "keywords": [
+    "portfolio",
+    "software-developer",
+    "web-development"
+  ],
+  "author": "Ruthishwaran R",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
